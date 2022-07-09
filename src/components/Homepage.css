@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Mukta:wght@300&display=swap');
+.home {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ border-radius: none;
+ display: flex;
+ flex-direction: column;
+ padding-top: 4px;
+ font-style: 'Mukta';
+}
+.image{
+    height: 90%;
+    width: 95%;
+}
+#home-image{
+    max-width: 100%;
+    max-height: 95%;
+    object-fit: contain;
+}
+.image h3{
+    padding-top: 2px;
+}
+.hotel{
+    display: flex;
+    height: 80%;
+
+}
+@media only screen and (max-width: 768px){
+    .entrance-image{
+        display: none;
+    }
+}
+.about-hotel{
+    flex : 1;
+    max-width: 50%;
+}
+.entrance-image{
+    object-fit: contain;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
