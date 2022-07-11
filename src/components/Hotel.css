@@ -1,0 +1,16 @@
+.overview{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    height: 30vh;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+dl{
+    display: flex;
+}
