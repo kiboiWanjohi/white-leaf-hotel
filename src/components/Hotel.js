@@ -1,5 +1,9 @@
 import React from "react";
 import "./Hotel.css";
+import gallery1 from "../images/gallery1.jpg";
+import gallery2 from "../images/gallery2.jpg";
+import gallery3 from "../images/gallery3.jpg";
+import gallery4 from "../images/gallery4.jpg";
 const Hotel = () => {
   return (
     <>
@@ -17,12 +21,12 @@ const Hotel = () => {
           <h3>Details</h3>
           <dl>
             <div className="floors">
-              <dt># of Floors</dt>
+              <dt>No of Floors</dt>
               <dd>3</dd>
             </div>
             <div className="buildings">
-              <dt># of Buildings</dt>
-              <dd>1</dd>
+              <dt>No of Buildings</dt>
+              <dd>2</dd>
             </div>
             <div className="features">
               <dd>
@@ -38,7 +42,20 @@ const Hotel = () => {
           </dl>
         </section>
 
-        <section className="gallery"></section>
+        <section className="gallery">
+          <div className="img">
+            <img src={gallery1} alt="" />
+          </div>
+          <div className="img">
+            <img src={gallery2} alt="" />
+          </div>
+          <div className="img">
+            <img src={gallery3} alt="" />
+          </div>
+          <div className="img">
+            <img src={gallery4} alt="" />
+          </div>
+        </section>
       </div>
     </>
   );

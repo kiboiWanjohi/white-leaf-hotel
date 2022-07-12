@@ -1,0 +1,23 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contactImage{
+    max-height: 90vh;
+    height: 70vh;
+    width: 100%;
+}
+img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.restaurantandhotel{
+    padding-top: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    line-height: 2em;
+}
